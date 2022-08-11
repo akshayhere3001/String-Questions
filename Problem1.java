@@ -9,6 +9,12 @@ public class Problem1{
 		for(int i = chArr.length - 1; i>=0; i--) {
 			System.out.print(chArr[i]);
 		}
+	  
+	  
+	// Another Approach
+		for(int i = greet.length() - 1; i>=0; i--) {
+			System.out.print(greet.charAt(i));
+		}
     
     
   }
